@@ -1,0 +1,318 @@
+body {
+	background-color:#070303;
+}
+
+:root{
+    --primary-color: #6366F1;
+    --accent-color: #3f83f8;
+    --text-color:#333333;
+    --link-color:#2563eb;
+    --background-color: #ffffff;
+    --light-gray: #f0f0f0;
+    --gray:#808080;
+    --dark-gray:#555;
+}
+.container1 {
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.left-container {
+	flex: 1;
+	margin-right: 20px;
+	font-size: 24px;
+	line-height: 1.5;
+	color: white;
+}
+
+.left-container p:first-child {
+	font-size: 36px;
+	font-weight: bold;
+	margin-top: 0;
+}
+
+.right-container {
+	flex: 1;
+}
+
+.right-container img {
+	width: 100%;
+	height: auto;
+}
+
+
+
+.image-container {
+	position: relative;
+	width: 100%;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.image-container img {
+	width: 100%;
+	height: auto;
+}
+
+.text-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(255, 165, 0, 0.8);
+	color: white;
+	padding: 10px;
+	text-align: center;
+}
+
+.text-container p {
+	margin: 0;
+	margin-bottom: 5px;
+}
+
+.text-container p:last-child {
+	font-size: 14px;
+}
+
+.container2 {
+	max-width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+
+
+.testimonial-container{
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1280px;
+    background-color: red;
+}
+
+
+.testimonial-title{
+    font-size: 1.875rem;
+    font-weight: bold;
+
+}
+.testimonial-content{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.testimonial-grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px,1fr));
+    grid-gap: 2rem;
+}
+.testimonial-card{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgb(137, 134, 134);
+    border-radius: 1rem;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 1.2rem;
+    gap: 1rem;
+    transition:transform 0.3s ease , box-shadow 0.3s ease;
+}
+        /* CSS Styles for Testimonial Hover Effect */
+        .testimonial-card:hover {
+            background-color: rgb(0, 0, 0);
+        }
+
+        /* Other CSS styles for layout and formatting */
+        .testimonial-container {
+            width: 80%;
+            margin: auto;
+        }
+
+.testimonial-text{
+    color: #dfdbdb;
+    font-size: 0.875rem;
+}
+
+.testimonial-avatar img{
+    height: 5rem;
+    width: 5rem;
+}
+
+.testimonial-name{
+    color: white;
+    font-size: 1rem;
+}
+
+
+.testimonial-desc{
+    font-size: 0.875rem;
+    color: white;
+}
+
+
+
+
+#about {
+    background-color: #070303; 
+    padding: 50px 0; 
+}
+
+.container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.about-heading {
+    max-width: 600px; 
+    flex: 1;
+}
+
+.about-heading p,
+.about-heading h1,
+.about-heading a {
+    color: #ffff; 
+}
+
+
+.about-img {
+    flex: 1;
+    margin-right: 20px; 
+}
+
+.about-img img {
+    max-width: 100%;
+}
+.news-tittle ,.signup ,.footer, .privacy-policy .news-link , .news-link ,.getintouch ,.sub-heading , .heading-main , .sub-para , .user-name , .user-designation , .form-control{
+ color: #ffffff;
+}
+.bg-red.contact-sec {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.user-img {
+    margin-right: 20px;
+}
+
+.user-name {
+    margin: 0;
+}
+
+
+.bg-red.contact-sec {
+    background-color:black; /* Change to red */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-sec .container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.contact-sec .row {
+    justify-content: center;
+}
+
+.contact-sec form {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.contact-sec textarea {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.footer {
+    text-align: center;
+    background-color: #070303;
+    padding: 20px 0;
+    color: white;
+}
+
+.footer p {
+    margin: 0;
+}
+.contact-sec textarea {
+    margin-top: 20px; /* Adjust spacing */
+}
+
+.contact-sec .getintouch {
+    display: block; /* Display as block-level element */
+    margin-top: 10px; /* Adjust spacing */
+}
+/* Default style for 
+ter icons */
+.footer__icon i {
+    font-size: 24px; /* Default size */
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+    .footer__icon i {
+        font-size: 32px; /* Increase size for larger screens */
+    }
+}
+
+.contact-section {
+    width: 80%;
+    padding: 60px 0;
+    background-color: #000;
+    padding: 2rem;
+    margin: 0 auto;
+    max-width: 1280px;
+}
+
+.contact-section h2,
+.contact-section p,
+.contact-section li {
+    color: #fff;
+}
+
+.contact-info {
+    list-style: none;
+    padding: 0;
+}
+
+.contact-info i {
+    margin-right: 10px;
+}
+
+.contact-info span {
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    background-color: #000;
+    color: #fff;
+}
+
+.contact-form textarea {
+    height: 150px;
+}
+
+.contact-form button {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.contact-form button:hover {
+    background-color: #ddd;
+}
